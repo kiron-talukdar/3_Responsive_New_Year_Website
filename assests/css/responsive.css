@@ -1,0 +1,183 @@
+
+/* responsive design start */
+
+@media screen and (max-width: 1200px) {
+    /* 1. header area */
+    .header {
+        padding: 88px;
+    }
+    .header h1 {
+        font-size: 65px;
+    }
+
+    /* 2 discount area */
+    /* 3 */
+    /* 4 */
+    .midnight-title h2 {
+        font-size: 44px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    /* 1. header area */
+
+    .header {
+        padding: 61px;
+    }
+    .header h1 {
+        font-size: 62px;
+    }
+    /* 2. discount area */
+    .discount img {
+        height: 475px;
+   }
+   /* 3 midnight-perty-area*/
+    .midnight-party {
+	padding: 65px 20px 65px 20px;
+    }
+    /* 5 */
+
+    .coming-soon {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    /* .coming-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+
+    .coming-right {
+        /* display: grid;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        /* margin: 0 auto; 
+        grid-template-columns: repeat(3,1fr); 
+        */
+        grid-column: 1 / span 12;
+    }
+    .coming-right{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.0) 100%);
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    /* 1 header area*/
+    .header {
+        padding: 55px;
+    }
+    .header h1 {
+        font-size: 55px;
+        line-height: 90px;
+        padding: 10px 0;
+    }
+    .header h3 {
+        font-size: 24px;
+    }
+    /* 2 discount area*/
+
+    .discount img {
+        padding-top: 38px;
+        height: 350px;
+    }
+    .discount h4 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .section-padding {
+        padding: 70px 0px;
+    }
+    /* 3  */
+    .descount-area .section-padding {
+        padding: 70px 0px;
+    }
+    /* 3 */
+    .midnight-party {
+        flex-direction: column-reverse;
+    }
+    /* 5 */
+    .coming-middle img {
+        margin: 0 auto;
+        height: 317px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+   
+    /* 1 Header area*/
+    .header h1 {
+        font-size: 45px;
+        line-height: 57px;
+    }
+    .header h3 {
+        font-size: 28px;
+    }
+    
+
+    /* 2 discount area*/
+    .discount img {
+        padding-top: 21px;
+        height: 239px;
+    }
+    /* 3 */
+
+    /* 4 */
+    .party-join {
+        padding: 50px 0;
+    }
+    .party-join h4{
+        font-size: 26px;
+        padding-bottom: 23px;
+    }
+    /* 5 */
+    .coming-soon {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .coming-right{
+        display: none;
+        
+    }
+    /* 6.  */
+    .portfolio-images h3 {
+        font-size: 40px;
+    }
+    .subscribe-btn {
+       
+        flex-direction: column;
+    }
+    /* footer */
+
+    .bottom-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .company-address a{
+       line-height: 35px;
+    }
+    .bottom-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-bottom a{
+        margin-top: 10px;
+    }
+    .bottom-middle img {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    
+}
